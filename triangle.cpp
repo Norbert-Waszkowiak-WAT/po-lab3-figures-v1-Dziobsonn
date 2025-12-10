@@ -1,7 +1,7 @@
 #include "point.h"
 #include "triangle.h"
 #include <cmath>
-
+ 
 Triangle::Triangle(Point a, Point b, Point c): a(a), b(b), c(c){}
 Triangle::Triangle(const Triangle &other ): a(other.a), b(other.b), c(other.c){}
 bool Triangle::equals(Triangle &other){
@@ -28,3 +28,4 @@ double Triangle::getSurface() {
     double p = (a + b + c)/ 2;
     return sqrt(p * (p - a) * (p - c) *( p - b));
 }
+ 
