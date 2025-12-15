@@ -8,7 +8,7 @@ Quadrilateral::Quadrilateral(const Quadrilateral &other): a(other.a), b(other.b)
 bool Quadrilateral::equals(Quadrilateral &other){
     return a.equals(other.a) && b.equals(other.b) && c.equals(other.c) && d.equals(other.d);
 }
- 
+ //siema
 void Quadrilateral::flip(){
     a.flip();
     b.flip();

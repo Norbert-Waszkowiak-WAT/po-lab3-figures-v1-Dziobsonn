@@ -2,7 +2,7 @@
 #define QUADRILATERAL
 #include "point.h"
 #include <string>
- 
+ //pozdro
 class Quadrilateral{
     private:
         Point a;
